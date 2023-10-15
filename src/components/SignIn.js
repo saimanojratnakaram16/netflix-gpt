@@ -17,10 +17,8 @@ function SignIn() {
   const toggleSignIn = () => {
     setIsSignInForm(!isSignInForm);
   };
-  console.log(loadingStatus,"wefduhweuifhw")
   const validateForm = async(e) => {
     e.preventDefault();
-    console.log("test");
     setLoadingStatus(true);
     const errs = isSignInForm
       ? checkSignInValidation(email.current.value, password.current.value)

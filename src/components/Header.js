@@ -4,6 +4,7 @@ import { auth } from "../utils/firebase";
 import {signOut} from "firebase/auth"
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { USER_LOGO} from '../utils/constants'
 
 function Header() {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ function Header() {
           <Logo />
         </div>
            {user && <button onClick={handleSignOut} className="text-white">
-            signOut
+            <img src={USER_LOGO} alt="user"/>signOut
           </button>}
     </div>
   )
