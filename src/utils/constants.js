@@ -12,3 +12,5 @@ export const API_OPTIONS = {
 };
 export const NOWPLAYING_URL =
   "https://api.themoviedb.org/3/movie/now_playing?page=1";
+export const YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/";
+export const MOVIE_VIDEOS_URL = "https://api.themoviedb.org/3/movie/926393/videos?language=en-US";

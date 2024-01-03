@@ -17,7 +17,7 @@ function Header() {
     });
   }
   return ( 
-    <div className={'flex justify-between items-center px-14 h-20  bg-gradient-to-b from-black z-10 w-full ' + (!user ? 'absolute': 'bg-black') }>
+    <div className={'flex justify-between items-center px-14 h-20  bg-gradient-to-b from-black z-10 w-full fixed'}>
         <div className="w-56 ml-[2%]">
           <Logo />
         </div>
